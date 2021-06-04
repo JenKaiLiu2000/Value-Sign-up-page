@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value Sign up</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form class="item" id="_form">
+            <div class="input-data">
+                <label>Name</label><input class="ipt" type="text" id="ipt1" required>
+            </div>
+            <div class="input-data">
+                <label>Value</label><input class="ipt" type="number" id="ipt2" required>
+            </div>
+            <input class="btn" type="submit" value="Submit"></input>
+        </form>
+        <div class="hide"></div>
+    </div>
+    <div class="finish hide">
+        <h1>上傳成功</h1>
+    </div>
+    <section class="hide" id="json-data">
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+    <script src="./dist/init-firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

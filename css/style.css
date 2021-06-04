@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 350px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    /* display: none; */
+}
+
+.item{
+    padding: 20px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item .input-data{
+    margin: 0 0 15px;
+    display: flex;
+    justify-items: center;
+}
+
+label{
+    margin: 0 5px 0 0;
+    color: rgb(170, 170, 170);
+    font-family: Arial, sans-serif;
+}
+
+.ipt{
+    border: none;
+    border-bottom: 1px solid silver;
+}
+
+.btn{
+    padding: 10px 0;
+    margin: 10px 0 0 0;
+    background-color: rgb(94, 169, 255);
+    box-shadow: 0 0 5px rgba(36, 46, 90, 0.425);
+    /* background-color: rgb(94, 169, 255); */
+    border: none;
+    border-radius: 12px;
+
+    font-family: Optima, sans-serif;
+    /* font-weight: bold; */
+    color: rgb(246, 253, 255);
+    letter-spacing: 1pt;
+}
+
+.finish{
+    width: 80%;
+    max-width: 350px;
+    margin: auto;
+    background-color: rgb(110, 235, 224);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    border-radius: 20px;
+    transform: scale(0.8);
+    
+    color: rgb(255, 255, 255);
+    /* animation: ani 1s infinite alternate ease; */
+}
+
+.hide{
+    display: none;
+}
+
+@keyframes ani{
+    0%{ color:  rgb(219, 219, 219);transform: scale(0.8);background-color: rgb(56, 148, 140);box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);}
+    100%{color: rgb(255, 255, 255);transform: scale(1);background-color: rgb(110, 235, 224); box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);}
+}
+
+/* 0%{ color:  rgb(219, 219, 219);transform: scale(0.8);background-color: rgb(129, 93, 46);box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);} */
+/* 100%{color: rgb(255, 255, 255);transform: scale(1);background-color: rgb(255, 194, 82); box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);} */
+
+
